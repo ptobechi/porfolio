@@ -6,7 +6,7 @@ const NavBar = () => {
                     <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Talentifyhub Logo" />
                     <span className="self-center text-2xl font-semibold whitespace-nowrap text-dark">Talentifyhub</span>
                 </a>
-                <a href="#gallery" className="text-gray-900 inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg">
+                <a href="#gallery" className="text-gray-900 font-bold inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg">
                     Gallery
                 </a>
                 {/* <div className="w-full font-extrabold md:block md:w-auto" id="navbar-default">
