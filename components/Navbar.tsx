@@ -12,8 +12,8 @@ const NavBar = () => {
                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
                     </svg>
                 </button> */}
-                <div className="hidden w-full font-extrabold md:block md:w-auto" id="navbar-default">
-                    <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                <div className="w-full font-extrabold md:block md:w-auto" id="navbar-default">
+                    <ul className="font-medium">
                         <li>
                             <a href="#gallery" className="block font-bold text-gray-900">Gallery</a>
                         </li>
