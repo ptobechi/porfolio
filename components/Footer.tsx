@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer className="bg-white dark:bg-gray-900">
+        <footer className="bg-white pt-10">
             <h1 className="lg:text-5xl lg:px-24 lg:w-2/3 mb-5 font-extrabold leading-tight px-5 text-4xl">
                 Ready to make something kickass? <br />
                 <span className="underline-hover text-amber-600">
