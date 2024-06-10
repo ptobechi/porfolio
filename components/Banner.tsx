@@ -1,7 +1,12 @@
 import Image from "next/image";
 import smiley_man from "../assets/images/60ad1c2b0e1d633fc7ef2e69_Group 160-min-p-1080.jpeg"
 
-const Banner = () => {
+type BannerProps = {
+    toggleModal: () => void;
+};
+
+  
+const Banner = ({ toggleModal }: BannerProps) => {
     return (
         <section className="lg:flex items-center xl:px-40 lg:px-24 px-5">
             <div className="lg:flex flex-col lg:flex-1 lg:justify-between gap-3 mt-10">
@@ -15,9 +20,9 @@ const Banner = () => {
                 </p>
 
                 <div className="">
-                <button className="py-2.5 bg-amber-600 px-5 mb-2 text-sm font-medium text-gray-900 focus:outline-non rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
-                    Schedule a Call
-                </button>
+                    <button onClick={toggleModal} className="py-2.5 bg-amber-600 px-5 mb-2 text-sm font-medium text-gray-900 focus:outline-non rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                        Get Started
+                    </button>
                 </div>
 
             </div>

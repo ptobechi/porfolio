@@ -2,6 +2,7 @@ import Image from "next/image";
 import icon_one from "../assets/images/icon_one.svg"
 import icon_two from "../assets/images/icon_two.svg"
 import icon_three from "../assets/images/icon_three.svg"
+
 const Services = () => {
     return (
         <section className="text-center justify-center py-10">
